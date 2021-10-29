@@ -9,13 +9,22 @@ readthedocs link
 
 ## Features
 
-1. Easy-to-use state-of-the-art models:
+1. Optical character recognition of an image file with English text
     - High performance on NLU and NLG tasks.
     - Low barrier to entry for educators and practitioners.
 
-2. Easy-to-use state-of-the-art models:
+2. Summarize extracted English text to 3 sentences 
     - High performance on NLU and NLG tasks.
     - Low barrier to entry for educators and practitioners.
+
+3. Translate summarized English text to Korean
+
+Optical character recognition of an image file with English text
+(planned) check for grammatical errors in extracted English text
+Summarize extracted English text to 3 sentences and translate to Korean
+(planned) Optical character recognition of an image file with Korean text
+(planned) Summarize extracted Korean text to 3 sentences
+
 
 ## Installation
 
