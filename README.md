@@ -34,6 +34,10 @@ readthedocs link
 
 ## Online demos
 
+## Release
+
+### v0.0.0
+
 ## Authors
 
 ## License
