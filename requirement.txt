@@ -1,79 +1,64 @@
-# This file may be used to create an environment using:
-# $ conda create --name <env> --file <this file>
-# platform: win-64
-aiohttp=3.7.4.post0=py37h2bbff1b_2
-async-timeout=3.0.1=py37haa95532_0
-attrs=21.2.0=pyhd3eb1b0_0
-blas=1.0=mkl
-boto3=1.18.21=pyhd3eb1b0_0
-botocore=1.21.41=pyhd3eb1b0_1
-brotlipy=0.7.0=py37h2bbff1b_1003
-ca-certificates=2021.10.26=haa95532_2
-cachetools=4.2.2=pyhd3eb1b0_0
-certifi=2021.10.8=py37haa95532_0
-cffi=1.14.6=py37h2bbff1b_0
-chardet=4.0.0=py37haa95532_1003
-charset-normalizer=2.0.4=pyhd3eb1b0_0
-click=8.0.3=pypi_0
-colorama=0.4.4=pypi_0
-coverage=5.5=py37h2bbff1b_2
-cryptography=35.0.0=py37h71e12ea_0
-cython=0.29.24=py37hd77b12b_0
-flask=1.1.2=pypi_0
-gensim=3.8.3=py37hd77b12b_2
-google-api-core=1.25.1=pyhd3eb1b0_0
-google-auth=1.33.0=pyhd3eb1b0_0
-google-cloud-core=1.7.1=pyhd3eb1b0_0
-google-cloud-storage=1.41.0=pyhd3eb1b0_0
-google-crc32c=1.1.2=py37h2bbff1b_0
-google-resumable-media=1.3.1=pyhd3eb1b0_1
-googleapis-common-protos=1.53.0=py37h2eaa2aa_0
-grpcio=1.36.1=py37hc60d5dd_1
-icc_rt=2019.0.0=h0cc432a_1
-idna=3.2=pyhd3eb1b0_0
-importlib-metadata=4.8.1=pypi_0
-intel-openmp=2021.3.0=haa95532_3372
-itsdangerous=2.0.1=pypi_0
-jinja2=3.0.2=pypi_0
-jmespath=0.10.0=pyhd3eb1b0_0
-libcrc32c=1.1.1=ha925a31_2
-libprotobuf=3.17.2=h23ce68f_1
-markupsafe=2.0.1=pypi_0
-mkl=2021.3.0=haa95532_524
-mkl-service=2.4.0=py37h2bbff1b_0
-mkl_fft=1.3.1=py37h277e83a_0
-mkl_random=1.2.2=py37hf11a4ad_0
-multidict=5.1.0=py37h2bbff1b_2
-numpy=1.21.2=py37hfca59bb_0
-numpy-base=1.21.2=py37h0829f74_0
-openssl=1.1.1l=h2bbff1b_0
-pip=21.2.4=py37haa95532_0
-protobuf=3.17.2=py37hd77b12b_0
-pyasn1=0.4.8=pyhd3eb1b0_0
-pyasn1-modules=0.2.8=py_0
-pycparser=2.20=py_2
-pyopenssl=21.0.0=pyhd3eb1b0_1
-pysocks=1.7.1=py37_1
-python=3.7.10=h6244533_0
-python-dateutil=2.8.2=pyhd3eb1b0_0
-pytz=2021.3=pyhd3eb1b0_0
-requests=2.26.0=pyhd3eb1b0_0
-rsa=4.7.2=pyhd3eb1b0_1
-s3transfer=0.5.0=pyhd3eb1b0_0
-scipy=1.7.1=py37hbe87c03_2
-setuptools=58.0.4=py37haa95532_0
-six=1.16.0=pyhd3eb1b0_0
-smart_open=5.1.0=pyhd3eb1b0_0
-sqlite=3.36.0=h2bbff1b_0
-typing-extensions=3.10.0.2=hd3eb1b0_0
-typing_extensions=3.10.0.2=pyh06a4308_0
-urllib3=1.26.7=pyhd3eb1b0_0
-vc=14.2=h21ff451_1
-vs2015_runtime=14.27.29016=h5e58377_2
-werkzeug=2.0.2=pypi_0
-wheel=0.37.0=pyhd3eb1b0_1
-win_inet_pton=1.1.0=py37haa95532_0
-wincertstore=0.2=py37haa95532_2
-yarl=1.5.1=py37he774522_0
-zipp=3.6.0=pypi_0
-zlib=1.2.11=h62dcd97_4
+aiohttp @ file:///C:/ci/aiohttp_1632749658027/work
+astroid==2.3.3
+async-timeout==3.0.1
+attrs @ file:///tmp/build/80754af9/attrs_1620827162558/work
+boto3 @ file:///tmp/build/80754af9/boto3_1629142476879/work
+botocore @ file:///tmp/build/80754af9/botocore_1633531073272/work
+brotlipy==0.7.0
+cachetools @ file:///tmp/build/80754af9/cachetools_1619597386817/work
+certifi==2021.10.8
+cffi @ file:///C:/ci/cffi_1625831764494/work
+chardet @ file:///C:/ci/chardet_1607706910910/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click==8.0.3
+colorama==0.4.4
+coverage @ file:///C:/ci/coverage_1614614910274/work
+cryptography @ file:///C:/ci/cryptography_1635366713676/work
+Cython @ file:///C:/ci/cython_1626257059178/work
+Flask==1.1.2
+gensim @ file:///C:/ci/gensim_1613994638799/work
+google-api-core @ file:///C:/ci/google-api-core-split_1613980333946/work
+google-auth @ file:///tmp/build/80754af9/google-auth_1626320605116/work
+google-cloud-core @ file:///tmp/build/80754af9/google-cloud-core_1625077425256/work
+google-cloud-storage @ file:///tmp/build/80754af9/google-cloud-storage_1626308236607/work
+google-crc32c @ file:///C:/ci/google-crc32c_1612243062336/work
+google-resumable-media @ file:///tmp/build/80754af9/google-resumable-media_1624367812531/work
+googleapis-common-protos @ file:///C:/ci/googleapis-common-protos-feedstock_1617957819660/work
+grpcio @ file:///C:/ci/grpcio_1614884419385/work
+idna @ file:///tmp/build/80754af9/idna_1622654382723/work
+importlib-metadata==4.8.1
+isort==4.3.21
+itsdangerous==2.0.1
+Jinja2==3.0.2
+jmespath @ file:///Users/ktietz/demo/mc3/conda-bld/jmespath_1630583964805/work
+lazy-object-proxy==1.4.3
+MarkupSafe==2.0.1
+mccabe==0.6.1
+mkl-fft==1.3.1
+mkl-random @ file:///C:/ci/mkl_random_1626186163140/work
+mkl-service==2.4.0
+multidict @ file:///C:/ci/multidict_1607367865052/work
+numpy @ file:///C:/ci/numpy_and_numpy_base_1634106873805/work
+protobuf==3.17.2
+pyasn1 @ file:///Users/ktietz/demo/mc3/conda-bld/pyasn1_1629708007385/work
+pyasn1-modules==0.2.8
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+pylint==2.4.4
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1635333100036/work
+PySocks @ file:///C:/ci/pysocks_1594394709107/work
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+pytz==2021.3
+requests @ file:///tmp/build/80754af9/requests_1629994808627/work
+rsa @ file:///tmp/build/80754af9/rsa_1614366226499/work
+s3transfer @ file:///tmp/build/80754af9/s3transfer_1626435152308/work
+scipy @ file:///C:/ci/scipy_1630606897162/work
+six @ file:///tmp/build/80754af9/six_1623709665295/work
+smart-open @ file:///tmp/build/80754af9/smart_open_1623928409369/work
+typed-ast==1.4.0
+typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1631814937681/work
+urllib3==1.26.7
+Werkzeug==2.0.2
+win-inet-pton @ file:///C:/ci/win_inet_pton_1605306165655/work
+wincertstore==0.2
+yarl @ file:///C:/ci/yarl_1598045271760/work
+zipp==3.6.0
