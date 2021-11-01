@@ -1,5 +1,8 @@
 # Img3Sum
-summarize and translate text of the image into 3 sentences
+![Crates.io](https://img.shields.io/crates/l/rustc-serialize?style=for-the-badge)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+
+#### Open-source project that supports translating, summarizing and converting images to text.
 
 ## Official Document
 
@@ -30,6 +33,10 @@ readthedocs link
 ### Clone
 
 ## Online demos
+
+## Release
+
+### v0.0.0
 
 ## Authors
 
