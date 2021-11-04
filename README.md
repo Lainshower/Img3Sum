@@ -40,7 +40,11 @@ readthedocs link
 
 ## Authors
 
+- Joonwon Jang
+  -   Github: [@adarshaacharya](https://github.com/adarshaacharya)
+- 
+
 ## License
 
-Copyright © 2021 
-This project is  licensed.
+Copyright © 2021 [Lainshower](https://github.com/Lainshower).<br />
+This project is available under the Apache-2.0 License(https://github.com/Lainshower/Img3Sum/blob/main/LICENSE).
