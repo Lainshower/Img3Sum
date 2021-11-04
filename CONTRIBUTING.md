@@ -7,8 +7,8 @@ Welcome to [Img3Sum](https://github.com/Lainshower/Img3Sum)! Before sending your
 * [Code of Conduct](https://github.com/Lainshower/Img3Sum/blob/main/CODE_OF_CONDUCT.md)
 * [How Can I Contribute?](#how-can-i-contribute)
   * [Reporting Bugs](#reporting-bugs)
-  * [Suggesting Enhancements](#suggesting-enhancements)
   * [Pull Requests](#pull-requests)
+  * [Suggesting Enhancements](#suggesting-enhancements)
 
 ## How Can I Contribute?
 
