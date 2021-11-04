@@ -2,9 +2,14 @@ from gensim.summarization.summarizer import summarize
 from gensim.summarization.textcleaner import split_sentences
 
 def extract_summary(text):
-	ratio_for_3_sentences = 3/len(split_sentences(text))
+	sentence_list = split_sentences(text)
+	if len(split_sentences)==0: # Return the Warning Message if no sentence comes in
+		return ['WARNING..!! There are no sentences to summarize..!']
+	elif 1<=len(split_sentences)<=3: # return it as it is if the length of sentences is 1~3
+		return split_sentences
+	ratio_for_3_sentences = 3/len(sentence_list)
 	summary_list = summarize(text , ratio_for_3_sentences, split=True)
-	assert 3==len(summary_list), 'check length of source documents'
+	assert 3==len(summary_list), 'check length of source documents' # assert we return 3 sentences
 	return summary_list
 
 def translate(eng_summary_sentences):
