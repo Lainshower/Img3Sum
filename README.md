@@ -33,10 +33,27 @@ readthedocs link
 
 ### Prerequites
 
+#### Papago
 
+> write your private key in extract.py
+```python3
+how to use ...
+```
 
-### Clone
+#### OCR
 
+> chage path in OCR_RUN.py
+```python3
+how to use ...
+```
+
+#### Backend
+
+### Running on Localhost
+
+> Clone
+
+> Run
 ```python3
 how to use ...
 ```
