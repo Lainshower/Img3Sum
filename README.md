@@ -50,8 +50,10 @@ how to use ...
   - Github: [@Lainshwoer](https://github.com/Lainshower)
 - GeonYeong Son
   - Github : [GeonYeongSon](https://github.com/GeonYeongSon?tab=repositories)
--  YiYoung Yoon
+- YiYoung Yoon
   - Github : [y20ng](https://github.com/y20ng?tab=repositories)
+- JuHeon Oh
+  - Github : [OZOOOOOH](https://github.com/OZOOOOOH)
 
 ## License
 
