@@ -47,8 +47,11 @@ how to use ...
 ## Authors
 
 - Joonwon Jang
-  -   Github: [@Lainshwoer](https://github.com/Lainshower)
-- 
+  - Github: [@Lainshwoer](https://github.com/Lainshower)
+- GeonYeong Son
+  - Github : [GeonYeongSon](https://github.com/GeonYeongSon?tab=repositories)
+-  YiYoung Yoon
+  - Github : [y20ng](https://github.com/y20ng?tab=repositories)
 
 ## License
 
