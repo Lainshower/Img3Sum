@@ -68,7 +68,7 @@ how to use ...
 ## Authors
 
 - Joonwon Jang
-  - Github: [@Lainshwoer](https://github.com/Lainshower)
+  - Github: [@Lainshower](https://github.com/Lainshower)
 - GeonYeong Son
   - Github : [GeonYeongSon](https://github.com/GeonYeongSon?tab=repositories)
 - YiYoung Yoon
