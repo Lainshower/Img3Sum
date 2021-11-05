@@ -5,6 +5,7 @@ import requests
 
 def extract_summary(text):
     sentence_list = split_sentences(text)
+    print(len(sentence_list))
     if len(sentence_list) == 0:  # Return the Warning Message if no sentence comes in
         return ['WARNING..!! There are no sentences to summarize..!']
     # return it as it is if the length of sentences is 1~3
@@ -57,7 +58,8 @@ def get_summary(text):
 
 '''
 if __name__ == '__main__':
-    text = 'Optical character recognition of an image file with English text. Summarize extracted English text to 3 sentences. Translate summarized English text to Korean. check for grammatical errors in extracted English text.  Optical character recognition of an image file with Korean text'
+    #text = 'Optical character recognition of an image file with English text. Summarize extracted English text to 3 sentences. Translate summarized English text to Korean. check for grammatical errors in extracted English text.  Optical character recognition of an image file with Korean text'
+    text = 'The research, conducted by a team of current and former MIT Concrete Sustainability Hub (MIT CSHub) scientists and published in Transportation Research D, finds that a set of innovative planning strategies could improve pavement network environmental and performance outcomes even if budgets don’t increase. The paper presents a novel budget allocation tool and pairs it with three innovative strategies for managing pavement networks: a mix of paving materials, a mix of short- and long-term paving actions, and a long evaluation period for those actions. This novel approach offers numerous benefits. When applied to a 30-year case study of the lowa U.S. Route network, the MIT CSHub model and management strategies cut emissions by 20 percent while sustaining current levels of road quality. Achieving this with a conventional planning approach would require the state to spend 32 percent more than it does today. The key to its success is the consideration of a fundamental — but fraught — aspect of pavement asset management: uncertainty.'
     eng_sum, kor_sum = get_summary(text)
     print(eng_sum)
     print(kor_sum)
