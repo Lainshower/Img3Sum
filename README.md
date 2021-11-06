@@ -31,12 +31,12 @@ readthedocs link
 
 가상환경 여는 방법
 
-### Prerequites
+### Prerequisites
 
 #### Papago
 
 To use Papago translation, you must first register the application at the [Naver Developer Center]  and get a client ID and client secret issued.
-> write your private key in extract.py
+> write your private key in [extract.py](https://github.com/Lainshower/Img3Sum/blob/main/extract.py)
 >```python
 >export CLIENT_ID='Your application's client id'
 >export CLIENT_SECRET='Your application's client secret'
@@ -53,7 +53,7 @@ Visit **[Naver Developers]** and Log in. if you don't have an ID, please sign up
         c. Add an environment to service the application in a non-logged open API service environment and enter the necessary details.<br/>
 3. When the application is registered normally, a submenu is created under the **Application > My Application** menu in the Naver Developer Center.
 4. By clicking the application name, you can **check the client ID and client secret** assigned to the application on the Overview tab.
-5. Add your Client ID and Client Secret in extract.py
+5. Add your Client ID and Client Secret in [extract.py](https://github.com/Lainshower/Img3Sum/blob/main/extract.py)
 <br/>
 
 
@@ -65,7 +65,7 @@ Visit **[Naver Developers]** and Log in. if you don't have an ID, please sign up
 
 <img src="https://developers.naver.com/proxyapi/rawgit/naver/naver-openapi-guide/master/ko/papago-apis/images/papago-nmt-02.png" width="650">
 
-**Write your ID and Secrete in extract.py**
+**Write your ID and Secrete in [extract.py](https://github.com/Lainshower/Img3Sum/blob/main/extract.py)**
 ```python
 export CLIENT_ID='Your application's client id'
 export CLIENT_SECRET='Your application's client secret'
