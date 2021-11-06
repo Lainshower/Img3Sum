@@ -35,10 +35,46 @@ readthedocs link
 
 #### Papago
 
+To use Papago translation, you must first register the application at the [Naver Developer Center]  and get a client ID and client secret issued.
 > write your private key in extract.py
-```python3
-how to use ...
+>```python
+>export CLIENT_ID='Your application's client id'
+>export CLIENT_SECRET='Your application's client secret'
+>```
+
+
+
+Visit **[Naver Developers]** and Log in. if you don't have an ID, please sign up.
+
+1. Select **Application > Application Registration** from the menu of Naver Developer Center.
+2. The application details on the Application Registration (API Application) page are as follows:<br/>
+        a. Enter the name of the application you want to register in the application name.<br/>
+        b. Select and add Papago translation from the API used.<br/>
+        c. Add an environment to service the application in a non-logged open API service environment and enter the necessary details.<br/>
+3. When the application is registered normally, a submenu is created under the **Application > My Application** menu in the Naver Developer Center.
+4. By clicking the application name, you can **check the client ID and client secret** assigned to the application on the Overview tab.
+5. Add your Client ID and Client Secret in extract.py
+<br/>
+
+
+**Register Application**
+
+<img src="https://developers.naver.com/proxyapi/rawgit/naver/naver-openapi-guide/master/ko/papago-apis/images/papago-nmt-01.png" width="650">
+
+**check the client ID and Client Secret**
+
+<img src="https://developers.naver.com/proxyapi/rawgit/naver/naver-openapi-guide/master/ko/papago-apis/images/papago-nmt-02.png" width="650">
+
+**Write your ID and Secrete in extract.py**
+```python
+export CLIENT_ID='Your application's client id'
+export CLIENT_SECRET='Your application's client secret'
 ```
+<br/>
+
+[Naver Developers]:https://developers.naver.com/main/
+[Naver Developer Center]: https://developers.naver.com/apps/#/wizard/register
+
 
 #### OCR
 
