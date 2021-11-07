@@ -13,7 +13,7 @@ This open source project helps you identify important sentences in the image at 
 
 ## Official Document
 
-readthedocs link
+(planned)
 
 ## Features
 
@@ -27,22 +27,19 @@ readthedocs link
 
 5. (planned) Optical character recognition of an image file with Korean text
 
-## Installation
+## How to Run?
 
-가상환경 여는 방법
+### Prerequisites & Installation
 
-### Prerequisites
-
-#### Papago
+>**Papago**
 
 To use Papago translation, you must first register the application at the [Naver Developer Center]  and get a client ID and client secret issued.
-> write your private key in [extract.py](https://github.com/Lainshower/Img3Sum/blob/main/extract.py)<br/>
->```python
+write your private key in [extract.py](https://github.com/Lainshower/Img3Sum/blob/main/extract.py)<br/>
+
+```python
 >export CLIENT_ID='Your application's client id'
 >export CLIENT_SECRET='Your application's client secret'
->```
-
-
+```
 
 Visit **[Naver Developers]** and Log in. if you don't have an ID, please sign up.
 
@@ -56,12 +53,11 @@ Visit **[Naver Developers]** and Log in. if you don't have an ID, please sign up
 5. Add your Client ID and Client Secret in [extract.py](https://github.com/Lainshower/Img3Sum/blob/main/extract.py)
 <br/>
 
-
 **Register Application**
 
 <img src="https://developers.naver.com/proxyapi/rawgit/naver/naver-openapi-guide/master/ko/papago-apis/images/papago-nmt-01.png" width="600">
 
-**heck the client ID and Client Secret**
+**Check client ID and Client Secret**
 
 <img src="https://developers.naver.com/proxyapi/rawgit/naver/naver-openapi-guide/master/ko/papago-apis/images/papago-nmt-02.png" width="600">
 
@@ -71,9 +67,9 @@ Visit **[Naver Developers]** and Log in. if you don't have an ID, please sign up
 [Naver Developer Center]: https://developers.naver.com/apps/#/wizard/register
 
 
-#### OCR
+>**OCR**
 
-Install **tesseract** to use [OCR_RUN.py](https://github.com/Lainshower/Img3Sum/blob/main/OCR_RUN.py)
+Install **tesseract** to use OCR application in [OCR_RUN.py](https://github.com/Lainshower/Img3Sum/blob/main/OCR_RUN.py)
 
 **Windows**
 
@@ -93,31 +89,37 @@ sudo apt-get install libleptonica-dev
 sudo apt-get install tesseract-ocr tesseract-ocr-dev
 sudo apt-get install libtesseract-dev
 ```
-#### Backend
+
+>**Flask**
+
+To use Papago translation, Flask should be installed. Please refer to the flask installation, version page.<br/>
+
+<img src="https://user-images.githubusercontent.com/63241893/140640023-7c37ab45-c5e8-47bc-b135-340afbdda798.jpg" width="50%"><br/>
+
+[Flask Installation]: https://flask.palletsprojects.com/en/2.0.x/installation/#python-version <br/>
+
+[Version Check]: https://flask.palletsprojects.com/en/2.0.x/changes/# <br/>
 
 ### Running on Localhost
 
 > Clone
->```bash
->  $ git clone https://github.com/Lainshower/Img3Sum.git
->```   
+
+```bash
+  $ git clone https://github.com/Lainshower/Img3Sum.git
+```   
 
 > Run
->1. Run conda env export > img3sum.Run yaml
->```python3
->  conda env export > img3sum.yaml
->```
->2. Flask should be installed. Please refer to the flask installation, version page.<br/>
-><img src="https://user-images.githubusercontent.com/63241893/140640023-7c37ab45-c5e8-47bc-b135-340afbdda798.jpg" width="50%"><br/>
-> [Flask Installation]: https://flask.palletsprojects.com/en/2.0.x/installation/#python-version <br/>
-> [Version Check]: https://flask.palletsprojects.com/en/2.0.x/changes/# <br/>
->3. Run python app.py
->```python3
->  conda activate 'your env name'
->  python app.py
->```
 
+1. Create conda environment 
+```python3
+  conda env create --file img3sum.yaml
+```
+2. Run python app.py
 
+```python3
+  conda activate 'your env name'
+  python app.py
+```
 
 ## Online demos
 ### (Planned)
