@@ -71,17 +71,17 @@ Visit **[Naver Developers]** and Log in. if you don't have an ID, please sign up
 
 Install **tesseract** to use OCR application in [OCR_RUN.py](https://github.com/Lainshower/Img3Sum/blob/main/OCR_RUN.py)
 
-**Windows**
+- **Windows**
 
 https://github.com/UB-Mannheim/tesseract/wiki
 
-**Mac**
+- **Mac**
 
 ```
 brew install tesseract
 ```
 
-**Linux**
+- **Linux**
   
 ```
 sudo apt-get update
@@ -122,7 +122,7 @@ To use Papago translation, Flask should be installed. Please refer to the flask 
 ```
 
 ## Online demos
-### (Planned)
+(Planned)
 
 ## Release
 
