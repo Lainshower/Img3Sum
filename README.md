@@ -12,6 +12,13 @@
         <img alt="NodeJS" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
         <img alt="Flask" src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white">
 </p>     
+
+<h4 align="center">
+    <p>
+        <b>English</b> | 
+        <a href="https://github.com/Lainshower/Img3Sum/blob/main/README_ko.md">한국어</a>
+    <p>
+</h4>
         
 #### Open-source project that supports translating, summarizing and converting images to text.
 
