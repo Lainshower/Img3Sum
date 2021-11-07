@@ -137,9 +137,8 @@ To use Papago translation, Flask should be installed. Please refer to the flask 
   $ conda activate 'your env name'
 ```
 
-2. Run [app.py](https://github.com/Lainshower/Img3Sum/blob/main/app.py)
-
-```python3
+3. Run [app.py](https://github.com/Lainshower/Img3Sum/blob/main/app.py)
+```bash
   python app.py
 ```
 
