@@ -54,7 +54,7 @@ how to use ...
 >  $ git clone https://github.com/Lainshower/Img3Sum.git
 >```   
 
-> Run
+> 
 >1. conda env export > img3sum.Run yaml 를 실행하세요.
 >```python3
 >  conda env export > img3sum.yaml
