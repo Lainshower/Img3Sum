@@ -48,7 +48,7 @@ This open source project helps you identify important sentences in the image at 
 
 ### Prerequisites & Installation
 
->**Papago**
+>**Papago API**
 
 To use Papago translation, you must first register the application at the [Naver Developer Center]  and get a client ID and client secret issued.
 write your private key in [extract.py](https://github.com/Lainshower/Img3Sum/blob/main/extract.py)<br/>
