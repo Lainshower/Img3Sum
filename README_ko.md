@@ -60,6 +60,7 @@ how to use ...
 >  conda env export > img3sum.yaml
 >```
 >2. Flask를 설치합니다. flask 공식문서를 참고하세요.<br/>
+><img src="https://user-images.githubusercontent.com/63241893/140640023-7c37ab45-c5e8-47bc-b135-340afbdda798.jpg" width="50%"><br/>
 > [Flask 설치]: https://flask.palletsprojects.com/en/2.0.x/installation/#python-version <br/>
 > [버전 확인]: https://flask.palletsprojects.com/en/2.0.x/changes/# <br/>
 >3. python app.py 를 실행하세요.
