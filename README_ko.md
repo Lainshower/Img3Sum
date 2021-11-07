@@ -11,9 +11,9 @@
 
 저희는 이미지 속 중요한 영어문장을 추출해 한국어 번역과 제공해주는 오픈소스 프로젝트입니다.
 
-## 공식문서
+## 공식 문서
 
-readthedocs link
+(예정)
 
 ## 제공하는 기능
 
@@ -27,13 +27,11 @@ readthedocs link
 
 5. (예정) 한국어 문장이 포함된 이미지 데이터에 대해서 OCR(ptical character recognition)을 통한 텍스트 추출
 
-## 설치방법
-
-가상환경 여는 방법
+## 사용 방법
 
 ### 사전 설치 사항
 
-#### Papago
+> Papago API
 
 Papago 번역 API를 사용하기 위해서는 먼저 [네이버 개발자 센터]에서 어플리케이션을 등록하고 클라이언트 ID와 비밀번호를 발급받아야 합니다.
 
@@ -45,10 +43,11 @@ Papago 번역 API를 사용하기 위해서는 먼저 [네이버 개발자 센�
 3. 애플리케이션이 정상적으로 등록되면 네이버 개발자 센터의 **Application > 내 어플리케이션** 메뉴 아래에 등록한 애플리케이션 이름으로 하위 메뉴가 생긴 것을 확인할 수 있습니다. 
 4. 등록한 애플리케이션 이름을 클릭하면 개요 탭에서 애플리케이션에 부여된 클라이언트 ID와 비밀번호를 확인할 수 있습니다.
 5. 발급 받은 클라이언트 ID와 비밀번호를 [extract.py](https://github.com/Lainshower/Img3Sum/blob/main/extract.py)에 입력해주세요
->```python
->export CLIENT_ID='Your application's client id'
->export CLIENT_SECRET='Your application's client secret'
->```
+
+```python
+export CLIENT_ID='Your application's client id'
+export CLIENT_SECRET='Your application's client secret'
+```
 <br/>
 
 **어플리케이션 등록**
@@ -65,35 +64,59 @@ Papago 번역 API를 사용하기 위해서는 먼저 [네이버 개발자 센�
 [Naver Developers]:https://developers.naver.com/main/
 [네이버 개발자 센터]: https://developers.naver.com/apps/#/wizard/register
 
-#### OCR
+>**OCR**
 
-> OCR_RUN.py의 아래 부분을 수정하세요.
-```python3
-how to use ...
+[OCR_RUN.py](https://github.com/Lainshower/Img3Sum/blob/main/OCR_RUN.py)에 있는 OCR 기능을 사용하기 위해 **tesseract**를 다운로드 합니다.
+
+- **Windows**
+
+https://github.com/UB-Mannheim/tesseract/wiki
+
+- **Mac**
+
+```
+brew install tesseract
 ```
 
-### Running on Localhost
+- **Linux**
+  
+```
+sudo apt-get update
+sudo apt-get install libleptonica-dev 
+sudo apt-get install tesseract-ocr tesseract-ocr-dev
+sudo apt-get install libtesseract-dev
+```
+>**Flask**
+
+백엔드 실행을 위해 Flask를 설치하세요. (Flask 공식문서를 참고하세요.)<br/>
+
+<img src="https://user-images.githubusercontent.com/63241893/140640023-7c37ab45-c5e8-47bc-b135-340afbdda798.jpg" width="50%"><br/>
+
+[Flask 설치]: https://flask.palletsprojects.com/en/2.0.x/installation/#python-version <br/>
+
+[버전 검사]: https://flask.palletsprojects.com/en/2.0.x/changes/# <br/>
+
+
+### Localhost에서 실행
 
 > Clone
->```bash
->  $ git clone https://github.com/Lainshower/Img3Sum.git
->```   
 
-> 실행
->1. conda env export > img3sum.Run yaml 를 실행하세요.
->```python3
->  conda env export > img3sum.yaml
->```
->2. Flask를 설치하세요. (flask 공식문서를 참고하세요.)<br/>
-><img src="https://user-images.githubusercontent.com/63241893/140640023-7c37ab45-c5e8-47bc-b135-340afbdda798.jpg" width="50%"><br/>
-> [Flask 설치]: https://flask.palletsprojects.com/en/2.0.x/installation/#python-version <br/>
-> [버전 확인]: https://flask.palletsprojects.com/en/2.0.x/changes/# <br/>
->3. python app.py 를 실행하세요.
->```python3
->  conda activate 'your env name'
->  python app.py
->```
+```bash
+  $ git clone https://github.com/Lainshower/Img3Sum.git
+```   
 
+> Run
+
+1. Create 가상환경 만드세요.
+```python3
+  conda env create --file img3sum.yaml
+```
+2. python app.py 를 실행하세요.
+
+```python3
+  conda activate 'your env name'
+  python app.py
+```
 
 ## 온라인 데모
 ### (예정)
