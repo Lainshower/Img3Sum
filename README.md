@@ -41,7 +41,7 @@ write your private key in [extract.py](https://github.com/Lainshower/Img3Sum/blo
 >export CLIENT_SECRET='Your application's client secret'
 ```
 
-Visit **[Naver Developers]** and Log in. if you don't have an ID, please sign up.
+Visit **[Naver Developers]** and Log in. If you don't have an ID, please sign up.
 
 1. Select **Application > Application Registration** from the menu of Naver Developer Center.
 2. The application details on the Application Registration (API Application) page are as follows:<br/>
@@ -114,7 +114,7 @@ To use Papago translation, Flask should be installed. Please refer to the flask 
 ```python3
   conda env create --file img3sum.yaml
 ```
-2. Run python app.py
+2. Run python [app.py](https://github.com/Lainshower/Img3Sum/blob/main/app.py)
 
 ```python3
   conda activate 'your env name'
