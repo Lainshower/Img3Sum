@@ -42,25 +42,9 @@ how to use ...
 
 #### OCR
 
-[OCR_RUN.py](https://github.com/Lainshower/Img3Sum/blob/main/OCR_RUN.py)을 이용하려면 **tesseract** 를 사전에 설치하세요.
-
-**Windows**
-
-https://github.com/UB-Mannheim/tesseract/wiki
-
-**Mac**
-
-```
-brew install tesseract
-```
-
-**Linux**
-  
-```
-sudo apt-get update
-sudo apt-get install libleptonica-dev 
-sudo apt-get install tesseract-ocr tesseract-ocr-dev
-sudo apt-get install libtesseract-dev
+> OCR_RUN.py의 아래 부분을 수정하세요.
+```python3
+how to use ...
 ```
 
 ### Running on Localhost
@@ -75,7 +59,7 @@ sudo apt-get install libtesseract-dev
 >```python3
 >  conda env export > img3sum.yaml
 >```
->2. Flask를 설치합니다. flask 공식문서를 참고하세요.<br/>
+>2. Flask를 설치하세요. (flask 공식문서를 참고하세요.)<br/>
 ><img src="https://user-images.githubusercontent.com/63241893/140640023-7c37ab45-c5e8-47bc-b135-340afbdda798.jpg" width="50%"><br/>
 > [Flask 설치]: https://flask.palletsprojects.com/en/2.0.x/installation/#python-version <br/>
 > [버전 확인]: https://flask.palletsprojects.com/en/2.0.x/changes/# <br/>
