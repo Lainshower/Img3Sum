@@ -139,7 +139,7 @@ To use Papago translation, Flask should be installed. Please refer to the flask 
 
 3. Run [app.py](https://github.com/Lainshower/Img3Sum/blob/main/app.py)
 ```bash
-  python app.py
+  $ python app.py
 ```
 
 ## Online demos
