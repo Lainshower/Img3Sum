@@ -36,7 +36,7 @@ readthedocs link
 #### Papago
 
 To use Papago translation, you must first register the application at the [Naver Developer Center]  and get a client ID and client secret issued.
-> write your private key in [extract.py](https://github.com/Lainshower/Img3Sum/blob/main/extract.py)
+> write your private key in [extract.py](https://github.com/Lainshower/Img3Sum/blob/main/extract.py)<br/>
 >```python
 >export CLIENT_ID='Your application's client id'
 >export CLIENT_SECRET='Your application's client secret'
@@ -59,17 +59,12 @@ Visit **[Naver Developers]** and Log in. if you don't have an ID, please sign up
 
 **Register Application**
 
-<img src="https://developers.naver.com/proxyapi/rawgit/naver/naver-openapi-guide/master/ko/papago-apis/images/papago-nmt-01.png" width="650">
+<img src="https://developers.naver.com/proxyapi/rawgit/naver/naver-openapi-guide/master/ko/papago-apis/images/papago-nmt-01.png" width="600">
 
-**check the client ID and Client Secret**
+**heck the client ID and Client Secret**
 
-<img src="https://developers.naver.com/proxyapi/rawgit/naver/naver-openapi-guide/master/ko/papago-apis/images/papago-nmt-02.png" width="650">
+<img src="https://developers.naver.com/proxyapi/rawgit/naver/naver-openapi-guide/master/ko/papago-apis/images/papago-nmt-02.png" width="600">
 
-**Write your ID and Secrete in [extract.py](https://github.com/Lainshower/Img3Sum/blob/main/extract.py)**
-```python
-export CLIENT_ID='Your application's client id'
-export CLIENT_SECRET='Your application's client secret'
-```
 <br/>
 
 [Naver Developers]:https://developers.naver.com/main/
