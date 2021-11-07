@@ -93,7 +93,7 @@ how to use ...
 >```   
 
 > Run
->1. run conda env export > img3sum.Run yaml
+>1. Run conda env export > img3sum.Run yaml
 >```python3
 >  conda env export > img3sum.yaml
 >```
