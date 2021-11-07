@@ -3,7 +3,7 @@
 ![Crates.io](https://img.shields.io/crates/l/rustc-serialize?style=for-the-badge)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 
-#### 많은 영어 문장이 포함된 이미지에서 중요 문장을 추출해 한국어 번역화 함께 제공하는 오픈소스 프로젝트
+#### 많은 영어 문장이 포함된 이미지에서 중요 문장을 추출해 한국어 번역 함께 제공하는 오픈소스 프로젝트
 
 ## Core concept
 
@@ -35,10 +35,35 @@ readthedocs link
 
 #### Papago
 
-> extract.py의 아래 부분을 수정하세요.
-```python3
-how to use ...
-```
+Papago 번역 API를 사용하기 위해서는 먼저 [네이버 개발자 센터]에서 어플리케이션을 등록하고 클라이언트 ID와 비밀번호를 발급받아야 합니다.
+
+1. 네이버 개발자 센터 상단의 메뉴에서 **Application > 애플리케이션 등록**을 선택합니다.
+2. 애플리케이션 등록 (API이용신청) 페이지에서 애플리케이션 세부 정보를 입력하는 방법은 다음과 같습니다: <br/>
+  a. 등록하려는 애플리케이션의 이름을 입력합니다.<br/>
+  b. 사용 API에서 Papago 번역을 선택하여 추가합니다.<br/>
+  c. 비로그인 오픈 API 서비스 환경에서 애플리케이션을 서비스할 환경을 추가하고 필요한 상세 정보를 입력합니다.<br/>
+3. 애플리케이션이 정상적으로 등록되면 네이버 개발자 센터의 **Application > 내 어플리케이션** 메뉴 아래에 등록한 애플리케이션 이름으로 하위 메뉴가 생긴 것을 확인할 수 있습니다. 
+4. 등록한 애플리케이션 이름을 클릭하면 개요 탭에서 애플리케이션에 부여된 클라이언트 ID와 비밀번호를 확인할 수 있습니다.
+5. 발급 받은 클라이언트 ID와 비밀번호를 [extract.py](https://github.com/Lainshower/Img3Sum/blob/main/extract.py)에 입력해주세요
+>```python
+>export CLIENT_ID='Your application's client id'
+>export CLIENT_SECRET='Your application's client secret'
+>```
+<br/>
+
+**어플리케이션 등록**
+
+<img src="https://developers.naver.com/proxyapi/rawgit/naver/naver-openapi-guide/master/ko/papago-apis/images/papago-nmt-01.png" width="650">
+
+**클라이언트 ID와 비밀번호 확인**
+
+<img src="https://developers.naver.com/proxyapi/rawgit/naver/naver-openapi-guide/master/ko/papago-apis/images/papago-nmt-02.png" width="650">
+
+<br/>
+
+
+[Naver Developers]:https://developers.naver.com/main/
+[네이버 개발자 센터]: https://developers.naver.com/apps/#/wizard/register
 
 #### OCR
 
