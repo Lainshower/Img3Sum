@@ -3,11 +3,11 @@
 ![Crates.io](https://img.shields.io/crates/l/rustc-serialize?style=for-the-badge)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 
-#### 영어 문서로 된 이미지에서 핵심 문장과 번역본을 같이 제공하는 오픈소스 프로젝트
+#### 영문으로 된 이미지에서 핵심 문장과 번역본을 같이 제공하는 오픈소스 프로젝트
 
 ## Core concept
 
-영어 문서 읽을 때, 핵심 문장이 무엇인지 알고 싶지 않으신가요?
+영문으로 된 이미지를 읽을 때, 핵심 문장이 무엇인지 알고 싶지 않으신가요?
 
 저희는 문서 이미지 속 핵심 문장과 번역본을 제공해주는 오픈소스 프로젝트입니다.
 
