@@ -1,8 +1,18 @@
 # Img3Sum
 
-![Crates.io](https://img.shields.io/crates/l/rustc-serialize?style=for-the-badge)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+<p align="center">
+    <br>
+    <img src="https://postfiles.pstatic.net/MjAyMTExMDhfMTgw/MDAxNjM2Mjk5NTEwOTQz.usISiht3P5F41AG-4S2XGLJ1KV89zPaW8Bgx9jGa79og.BTRnTACGJOJw8vj664wmrwG595heQ_oAKDvUWOh-pyQg.PNG.kaoara/Img3Sum.png?type=w773" width="300" height="300" />
+    <br>
+<p>
 
+<p align="center">
+        <img alt="License" src="https://img.shields.io/crates/l/rustc-serialize?style=for-the-badge">
+        <img alt="Python" src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
+        <img alt="NodeJS" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
+        <img alt="Flask" src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white">
+</p>     
+        
 #### Open-source project that supports translating, summarizing and converting images to text.
 
 ## Core Concept
