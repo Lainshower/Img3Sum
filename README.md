@@ -89,7 +89,7 @@ how to use ...
 
 > Clone
 >```bash
->   $ git clone https://github.com/Lainshower/Img3Sum.git
+>  $ git clone https://github.com/Lainshower/Img3Sum.git
 >```   
 
 > Run
