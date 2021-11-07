@@ -94,7 +94,9 @@ how to use ...
 >```python3
 >conda env export > img3sum.yaml
 >```
->2. Flask should be installed. Please refer to the flask installation, version page [Flask Installation]: https://flask.palletsprojects.com/en/2.0.x/installation/#python-version, [version]: https://flask.palletsprojects.com/en/2.0.x/changes/#
+>2. Flask should be installed. Please refer to the flask installation, version page 
+>[Flask Installation]: https://flask.palletsprojects.com/en/2.0.x/installation/#python-version
+>[version]: https://flask.palletsprojects.com/en/2.0.x/changes/#
 >3. Run python app.py
 >```python3
 >conda activate 'your env name'
