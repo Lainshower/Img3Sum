@@ -50,11 +50,24 @@ how to use ...
 ### Running on Localhost
 
 > Clone
+>```bash
+>  $ git clone https://github.com/Lainshower/Img3Sum.git
+>```   
 
 > Run
-```python3
-how to use ...
-```
+>1. conda env export > img3sum.Run yaml 를 실행하세요.
+>```python3
+>  conda env export > img3sum.yaml
+>```
+>2. Flask를 설치합니다. flask 공식문서를 참고하세요.<br/>
+> [Flask 설치]: https://flask.palletsprojects.com/en/2.0.x/installation/#python-version <br/>
+> [버전 확인]: https://flask.palletsprojects.com/en/2.0.x/changes/# <br/>
+>3. python app.py 를 실행하세요.
+>```python3
+>  conda activate 'your env name'
+>  python app.py
+>```
+
 
 ## 온라인 데모
 ### (예정)
