@@ -88,6 +88,9 @@ how to use ...
 ### Running on Localhost
 
 > Clone
+>```bash
+>   $ git clone https://github.com/Lainshower/Img3Sum.git
+>```   
 
 > Run
 >1. run conda env export > img3sum.Run yaml
