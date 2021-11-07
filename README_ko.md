@@ -42,9 +42,25 @@ how to use ...
 
 #### OCR
 
-> OCR_RUN.py의 아래 부분을 수정하세요.
-```python3
-how to use ...
+[OCR_RUN.py](https://github.com/Lainshower/Img3Sum/blob/main/OCR_RUN.py)을 이용하려면 **tesseract** 를 사전에 설치하세요.
+
+**Windows**
+
+https://github.com/UB-Mannheim/tesseract/wiki
+
+**Mac**
+
+```
+brew install tesseract
+```
+
+**Linux**
+  
+```
+sudo apt-get update
+sudo apt-get install libleptonica-dev 
+sudo apt-get install tesseract-ocr tesseract-ocr-dev
+sudo apt-get install libtesseract-dev
 ```
 
 ### Running on Localhost

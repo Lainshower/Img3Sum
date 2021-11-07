@@ -78,11 +78,26 @@ export CLIENT_SECRET='Your application's client secret'
 
 #### OCR
 
-> chage path in OCR_RUN.py
-```python3
-how to use ...
+Install **tesseract** to use [OCR_RUN.py](https://github.com/Lainshower/Img3Sum/blob/main/OCR_RUN.py)
+
+**Windows**
+
+https://github.com/UB-Mannheim/tesseract/wiki
+
+**Mac**
+
+```
+brew install tesseract
 ```
 
+**Linux**
+  
+```
+sudo apt-get update
+sudo apt-get install libleptonica-dev 
+sudo apt-get install tesseract-ocr tesseract-ocr-dev
+sudo apt-get install libtesseract-dev
+```
 #### Backend
 
 ### Running on Localhost
