@@ -132,7 +132,7 @@ To use Papago translation, Flask should be installed. Please refer to the flask 
   $ conda create --name 'your env name'
 ```
 
-2. Import our conda environment configuration
+2. Unpackage our conda environment configuration
 ```bash
   $ conda env create --file img3sum.yaml
 ```
