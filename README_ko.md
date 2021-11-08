@@ -123,20 +123,26 @@ sudo apt-get install libtesseract-dev
 
 > Run
 
-1. Conda 가상환경 만드세요.
+1. Conda 가상환경 만들기
 ```python3
-  conda env create --file img3sum.yaml
+  $ conda create --name 'your env name'
 ```
 
-2. Conda 가상환경 활성화
+2. 패키징된 가상환경 설치 
+```bash
+  $ conda env create --file img3sum.yaml
+```
+
+3. Conda 가상환경 활성화
 ```bash
   $ conda activate 'your env name'
 ```
 
-3. [app.py](https://github.com/Lainshower/Img3Sum/blob/main/app.py) 실행
+4. [app.py](https://github.com/Lainshower/Img3Sum/blob/main/app.py) 실행
 ```bash
-  python app.py
+  $ python app.py
 ```
+
 
 ## 데모
 
