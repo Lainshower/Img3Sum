@@ -129,7 +129,7 @@ To use Papago translation, Flask should be installed. Please refer to the flask 
 
 1. Create conda environment 
 ```bash
-  $ cconda create --name 'your env name'
+  $ conda create --name 'your env name'
 ```
 
 2. Import our conda environment configuration
