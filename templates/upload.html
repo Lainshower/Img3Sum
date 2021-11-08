@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload</title>
+</head>
+<style>
+    .header{
+        text-align:center;
+        margin-top:50px;
+    }
+    .layout{
+        margin-top:100px;
+        display:inline-block;
+        width:49%;
+        text-align: center;
+    }
+    .origin-result, .summ-result{
+        min-height: 500px;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+    }
+</style>
+<body>
+    <div class='header'>추출 및 요약 결과:</div>
+    <div class='layout origin-text'>
+        <p>추출 결과</p>
+        <hr>
+        <div class='origin-result'>
+            결과값@<br>{{data.origin}}
+        </div>
+    </div>
+    <div class='layout summ-text'>
+        <p>요약 결과</p>
+        <hr>
+        <div class='summ-result'>
+            결과값@<br>{{data.summ}}
+        </div>
+    </div>
+</body>
+</html>
