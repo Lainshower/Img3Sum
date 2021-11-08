@@ -29,7 +29,7 @@
 
 ## 공식 문서
 
-(예정)
+[Img3Sum 공식문서](https://img3sum.readthedocs.io/)
 
 ## 제공하는 기능
 
@@ -138,8 +138,12 @@ sudo apt-get install libtesseract-dev
   python app.py
 ```
 
-## 온라인 데모
-### (예정)
+## 데모
+
+<p align="center">
+        <img alt="License" src="https://postfiles.pstatic.net/MjAyMTExMDhfODkg/MDAxNjM2MzQyODAyMDM0.6WSr4WG-dQ5dEjKT4jz6P7lAbrHd6oEuB0uP7iMUwz4g.WEN1m-qjhFA_Q5NX85auseKWbhOtgELLW-Ct9ySS6Fog.JPEG.kaoara/Img3SumDemo3.jpeg?type=w773">
+</p>     
+
 
 ## 베포 버전
 
