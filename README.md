@@ -160,7 +160,7 @@ To use Papago translation, Flask should be installed. Please refer to the flask 
 ## Authors
 
 - Joonwon Jang
-  - Github: [@Lainshower](https://github.com/Lainshower)
+  - Github: [Lainshower](https://github.com/Lainshower)
 - GeonYeong Son
   - Github : [GeonYeongSon](https://github.com/GeonYeongSon?tab=repositories)
 - YiYoung Yoon
