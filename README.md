@@ -155,7 +155,7 @@ To use Papago translation, Flask should be installed. Please refer to the flask 
 
 ## Release
 
-### v0.0.0
+### v0.0.1
 
 ## Authors
 
