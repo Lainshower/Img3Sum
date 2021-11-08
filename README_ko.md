@@ -158,7 +158,7 @@ sudo apt-get install libtesseract-dev
 ## 오픈소스 기여자들
 
 - Joonwon Jang
-  - Github: [@Lainshwoer](https://github.com/Lainshower)
+  - Github: [Lainshwoer](https://github.com/Lainshower)
 - GeonYeong Son
   - Github : [GeonYeongSon](https://github.com/GeonYeongSon?tab=repositories)
 - YiYoung Yoon
