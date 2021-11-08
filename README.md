@@ -30,7 +30,7 @@ This open source project helps you identify important sentences in the image at 
 
 ## Official Document
 
-[Img3Sum Offical Document](https://img3sum.readthedocs.io/)
+(updating) [Img3Sum Offical Document](https://img3sum.readthedocs.io/)
 
 ## Features
 
