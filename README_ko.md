@@ -153,7 +153,7 @@ sudo apt-get install libtesseract-dev
 
 ## 베포 버전
 
-### v0.0.0
+### v0.0.1
 
 ## 오픈소스 기여자들
 
