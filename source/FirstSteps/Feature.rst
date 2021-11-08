@@ -7,18 +7,4 @@ The tutorial is aimed at **people interested** in learning how to use Read the D
 
 The only things you will need to ''follow'' are a web browser, an Internet connection, and a GitHub account (you can register for a free account if you don’t have one). You will use Read the Docs Community, which means that the project will be public.
 
-Getting started
-***************
-To start, sign in to GitHub and navigate to the tutorial GitHub template, where you will see a green Use this template button. Click it to open a new page that will ask you for some details:
 
-Leave the default ``Owner``, or change it to something better for a tutorial project.
-
-Introduce an appropriate “Repository name”, for example rtd-tutorial.
-
-Make sure the project is “Public”, rather than “Private”.
-
-After that, click on the green Create repository from template button, which will generate a new repository on your personal account (or the one of your choosing). This is the repository you will import on Read the Docs, and it contains the following files:
-
-
-Preparing your project on GitHub
-================================
