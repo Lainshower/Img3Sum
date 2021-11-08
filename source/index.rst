@@ -25,7 +25,6 @@ Features
    :maxdepth: 2
    :caption: CONTENTS:
    
-   QuickStart
    FirstSteps/Feature
    Installation
    LICENSE
