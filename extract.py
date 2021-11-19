@@ -4,8 +4,10 @@ import requests
 
 
 def extract_summary(text):
+    sentence_list = split_sentences(text) # remove duplicates
+    sentence_list = list(dict.fromkeys(sentence_list))
+    text = " ".join(sentence_list)
     sentence_list = split_sentences(text)
-    print(len(sentence_list))
     if len(sentence_list) == 0:  # Return the Warning Message if no sentence comes in
         return ['WARNING..!! There are no sentences to summarize..!']
     # return it as it is if the length of sentences is 1~3

@@ -5,39 +5,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Upload</title>
+    <link rel=" shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 </head>
 <style>
+    .back{
+        background-image:url("/static/favicon2.png"); 
+        top:0;
+        left:0;
+        position:absolute;
+        background-size:100%;
+        opacity:0.4!important;
+        filter:alpha(opacity=50);
+        z-index:-1;
+        content:"";
+        width:100%;
+        height:100%;
+    }
+    button{
+
+    }
     .header{
         text-align:center;
         margin-top:50px;
     }
-    .layout{
-        margin-top:100px;
-        display:inline-block;
-        width:49%;
-        text-align: center;
+    .parent{
+        width: 90%;
+        margin: 10px auto;
     }
-    .origin-result, .summ-result{
-        min-height: 500px;
-        border-left: 1px solid #000000;
-        border-right: 1px solid #000000;
+
+    .first {
+        border: 1px solid red;
+        float: left;
+        width:30%;
+        box-sizing: border-box;
     }
+
+    .second{
+        border: 1px solid green;
+        float: left;
+        margin-left: 5%;
+        width:30%;
+        box-sizing: border-box;
+    }
+
+    .third{
+        border: 1px solid blue;
+        float: right;
+        width:30%;
+        box-sizing: border-box;
+    }
+
+    .btn{ 
+        display:block; 
+        width:200px; 
+        height:40px; 
+        line-height:40px; 
+        border:1px #3399dd solid;
+        margin:15px auto; 
+        border-radius: 30px;
+        background-color:#66aaff;
+        text-align:center; 
+        cursor: pointer; 
+        color:#333; 
+        transition:all 0.9s, color 0.3; 
+    } 
+    .btn:hover{
+        color:#fff;
+    }
+
+    .hover4:hover{ 
+        box-shadow: 200px 0 0 0 rgba(0,0,0,0.25) inset, -200px 0 0 0 rgba(0,0,0,0.25) inset; 
+    }
+
 </style>
 <body>
-    <div class='header'>추출 및 요약 결과:</div>
-    <div class='layout origin-text'>
-        <p>추출 결과</p>
-        <hr>
-        <div class='origin-result'>
-            결과값@<br>{{data.origin}}
+    <div class="back"></div>
+    <h1 align="center">Origin Text Extraction & English Summarization & Korean Translation, Summarization</h1>
+    <button class="btn hover4" onclick="location.href='/'">Back To Home (DO RESET)</button >
+    <div class="parent">
+        <div class='layout first'>
+            <p align="center"><strong>원본 추출 결과(Origin Text Extraction)</strong></p>
+            <hr>
+            <div class='origin-result'>
+                <br>{{data.origin}}
+            </div>
         </div>
-    </div>
-    <div class='layout summ-text'>
-        <p>요약 결과</p>
-        <hr>
-        <div class='summ-result'>
-            결과값@<br>{{data.summ}}
+        <div class='layout second'>
+            <p align="center"><strong>영어 요약 결과(English Summarization)</strong></p>
+            <hr>
+            <div class='summ-result'>
+                <br>{{data.summ_eng}}
+            </div>
         </div>
-    </div>
+        <div class='layout third'>
+            <p align="center"><strong>한글 번역, 요약 결과(Korean Translation, Summarization)</strong></p>
+            <hr>
+            <div class='summ-result'>
+                <br>{{data.summ_kor}}
+            </div>
+        </div>
+    </div>  
 </body>
 </html>

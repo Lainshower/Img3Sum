@@ -6,18 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Img3Sum</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="icon" href="favicon.ico">
+    <link rel=" shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <!-- favicon 설정 안됨.. -->
 </head>
+<style>
+    .back{
+        background-image:url("/static/favicon2.png"); 
+        top:0;
+        left:0;
+        position:absolute;
+        background-size:100%;
+        opacity:0.4!important;
+        filter:alpha(opacity=50);
+        z-index:-1;
+        content:"";
+        width:100%;
+        height:100%;
+    }
+</style>
 <body>
+    <div class="back"></div>
     <h1 align="center">Img3Sum</h1>
     <div class="container">
         <div class="image-upload" id="image-upload">
-
             <form method="post" enctype="multipart/form-data" action="/upload">
                 <div class="button">
                     <label for="chooseFile">
-                        👉 CLICK HERE! 👈
+                        👉 CLICK HERE! (Bring Your Image) 👈
                     </label>
                 </div>
                 <input type="file" id="chooseFile" name="chooseFile" accept="image/*" onchange="loadFile(this)">
@@ -31,9 +46,7 @@
                         <div class="submitButton" id="submitButton" onClick="form.submit();">SUBMIT</div>
                     </button>
                 </div>
-            </form>
-
-            
+            </form> 
         </div>
         
         <div class="image-show" id="image-show"></div>

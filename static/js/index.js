@@ -17,3 +17,4 @@ function loadFile(input) {
     var container = document.getElementById('image-show');
     container.appendChild(newImage);
 };
+
