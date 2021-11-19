@@ -1,5 +1,5 @@
 # app.py
-#import os
+import os
 from flask import Flask, render_template, request
 
 #OCR MODEL
