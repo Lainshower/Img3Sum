@@ -1,0 +1,16 @@
+# Heres a comment
+*.psd
+*.pdf
+./test
+./spec
+./__pycache__
+./.github
+./docs
+./venv
+./README.md
+./README_ko.md
+./Makefile
+./LICENSE
+./make.bat
+./CODE_OF_CONDUCT.md
+./CONTRIBUTING.md
