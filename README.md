@@ -147,6 +147,39 @@ To use Papago translation, Flask should be installed. Please refer to the flask 
   $ python app.py
 ```
 
+##  Running on External-hosting
+
+>Ngrok
+
+If you want to proceed with external hosting, Please refer to the [Ngrock site]("https://ngrok.com/download"). <br/>
+If you don't have account, Please sign up.<br/>
+
+<p align="center">
+    <img alt="Ngrok" src="https://user-images.githubusercontent.com/63241893/142754896-df728f66-60ac-4022-9b87-60618cabff4c.jpg" width="50%">
+</p>
+
+
+>Run
+
+After downloaded **Ngrock.exe** from the above site, Please proceed in the following order.<br/>
+
+1. Please put in your autotoken that you received.
+```python
+  ngrok authtoken "your authtoken"
+```
+
+2. Please run ngrock using your port.
+```python
+  ngrok.exe http "your port"
+```
+
+3. You can access it by entering "http &#65279;://XXXXXXXXXXXXX.ngrok.io" in Forwarding from the outside.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/63241893/142756074-a5c46913-e931-4577-8946-8a9a56a3502d.jpg" width="50%">
+</P>
+
+
 ## Demos
 
 <p align="center">
