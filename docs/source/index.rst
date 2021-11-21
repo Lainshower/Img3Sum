@@ -14,13 +14,27 @@ The purpose of this tool is to organize text images into three lines for those w
 English and who don't want to read the entire English document
 
 Features
-========
-* Optical character recognition of an image file with English text
-* *(planned)* Check for grammatical errors in extracted English text
-* Summarize extracted English text to 3 sentences and translate to Korean
-* *(planned)* Optical character recognition of an image file with Korean text
-* *(planned)* Summarize extracted Korean text to 3 sentences
+============
+------------
 
+1. Optical character recognition of an image file with English text
+
+2. Summarize extracted English text to 3 sentences 
+
+3. Translate summarized English text to Korean
+
+4. (planned) check for grammatical errors in extracted English text
+
+5. (planned) Optical character recognition of an image file with Korean text
+
+Demos
+============
+------------
+
+.. image:: images/Img3SumDemo.jpeg
+   :width: 700
+   :height: 450
+   :align: center
 
 .. toctree::
    :maxdepth: 2
