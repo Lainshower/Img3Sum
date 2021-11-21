@@ -14,7 +14,7 @@ Welcome to Img3Sum's documentation!
 
 Img3Sum is an open-source project thatOpen-source project that supports translating, summarizing and converting images to text.
 
-.. image:: images/img3sum_icon.png
+.. image:: images/Img3sum_icon.png
    :width: 300
    :align: center
 
@@ -64,7 +64,7 @@ Contents
 Release
 =========
 ---------
-
+v 0.0.1
 
 
 Authors

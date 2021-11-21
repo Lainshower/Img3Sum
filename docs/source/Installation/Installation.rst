@@ -125,8 +125,6 @@ To use Papago translation, Flask should be installed. Please refer to the flask 
     :alt: Flask Installation Page
 
 
-[Flask Installation]:
-https://flask.palletsprojects.com/en/2.0.x/installation/#python-version/
+`[Flask Installation] <https://flask.palletsprojects.com/en/2.0.x/installation/#python-version/>`_
 
-[Version Check]:
-https://flask.palletsprojects.com/en/2.0.x/changes/#/
+`[Version Check] <https://flask.palletsprojects.com/en/2.0.x/changes/#/>`_
