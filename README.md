@@ -120,29 +120,22 @@ To use Papago translation, Flask should be installed. Please refer to the flask 
 ### Running on Localhost
 
 > Clone
-
+ 
 ```bash
   $ git clone https://github.com/Lainshower/Img3Sum.git
 ```   
-
+ 
 > Run
-
-1. Create conda environment 
+ 
+1. Create conda environment and install packages
 ```bash
-  $ conda create --name 'your env name'
+  $ conda env create --file requirements.yaml
 ```
-
-2. Unpackage our conda environment configuration
+2. Activate conda environment
 ```bash
-  $ conda env create --file img3sum.yaml
+  $ conda activate env
 ```
-
-3. Activate conda environment
-```bash
-  $ conda activate 'your env name'
-```
-
-4. Run [app.py](https://github.com/Lainshower/Img3Sum/blob/main/app.py)
+3. Run [app.py](https://github.com/Lainshower/Img3Sum/blob/main/app.py)
 ```bash
   $ python app.py
 ```
