@@ -37,7 +37,7 @@ The preferred way to contribute is to fork the
 
 2. Clone this copy to your local disk::
 
-    $ git clone git@github.com:YourLogin/  Img3Sum.git
+    $ git clone git@github.com:YourLogin/Img3Sum.git
     $ cd Img3Sum
 3. Create a branch to hold your changes and start making changes. **Don't work in the _main_ branch!** The `main` branch is just a snapshot of the latest stable release. All development should be done in dedicated branches. ::
         

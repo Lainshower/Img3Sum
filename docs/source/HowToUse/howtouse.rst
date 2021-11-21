@@ -68,13 +68,12 @@ In this guide, we'll show you how to use Img3Sum.
 Hosting with External URL
 #########################
 
-
 After downloaded **Ngrock.exe** from the above site, Please proceed in the following order.<br/>
 
 1. Please put in your autotoken that you received.
 
 .. code-block:: python
-      
+
   ngrok authtoken "your authtoken"
 
 2. Please run ngrock using your port.
