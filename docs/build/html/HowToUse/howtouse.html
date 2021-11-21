@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to use? &mdash; Img3Sum 1.0.0 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Contributing Guidelines" href="../Contribution/Contributing.html" />
+    <link rel="prev" title="Installation" href="../Installation/installguide.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> Img3Sum
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../Installation/installguide.html">Installation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">How to use?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#running-on-localhost">Running on Localhost</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#clone">Clone</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#run">Run</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#running-each-feature-with-python">Running each feature with python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#hosting-with-external-url">Hosting with External URL</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Contribution/Contributing.html">Contributing Guidelines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../LICENSE.html">LICENSE</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Img3Sum</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>How to use?</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/HowToUse/howtouse.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="how-to-use">
+<h1>How to use?<a class="headerlink" href="#how-to-use" title="Permalink to this headline"></a></h1>
+<section id="running-on-localhost">
+<h2>Running on Localhost<a class="headerlink" href="#running-on-localhost" title="Permalink to this headline"></a></h2>
+<p>Run the program on localhost in the following order.</p>
+<section id="clone">
+<h3>Clone<a class="headerlink" href="#clone" title="Permalink to this headline"></a></h3>
+<ol class="arabic">
+<li><p>Use Git or checkout with SVN using the web URL.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git clone https://github.com/Lainshower/Img3Sum.git
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+<section id="run">
+<h3>Run<a class="headerlink" href="#run" title="Permalink to this headline"></a></h3>
+<ol class="arabic">
+<li><p>Create conda environment and install packages</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ conda env create --file requirements.yaml
+</pre></div>
+</div>
+</li>
+<li><p>Activate conda environment</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ conda activate env
+</pre></div>
+</div>
+</li>
+<li><p>Run <a class="reference external" href="https://github.com/Lainshower/Img3Sum/blob/main/app.py">app.py</a></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ python app.py
+</pre></div>
+</div>
+</li>
+</ol>
+</section>
+</section>
+<section id="running-each-feature-with-python">
+<h2>Running each feature with python<a class="headerlink" href="#running-each-feature-with-python" title="Permalink to this headline"></a></h2>
+<p>In this guide, we’ll show you how to use Img3Sum.</p>
+<ul class="simple">
+<li><p><strong>If you want to extract text from an image</strong></p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">IMG3SUM.OCR_RUN</span> <span class="kn">import</span> <span class="n">ocr_from_img</span>
+<span class="n">text</span><span class="o">=</span><span class="n">ocr_from_img</span><span class="p">(</span><span class="s2">&quot;image path&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><strong>If you want a summary from the text</strong></p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">IMG3SUM.extract</span> <span class="kn">import</span> <span class="n">get_summary</span>
+<span class="n">eng_sum</span><span class="p">,</span> <span class="n">kor_sum</span> <span class="o">=</span> <span class="n">get_summary</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">eng_sum</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">kor_sum</span><span class="p">)</span>
+<span class="c1"># You can get a summary of the Korean and English versions.</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><strong>If you want a summary from the image</strong></p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">IMG3SUM.OCR_RUN</span> <span class="kn">import</span> <span class="n">ocr_from_img</span>
+<span class="kn">from</span> <span class="nn">IMG3SUM.extract</span> <span class="kn">import</span> <span class="n">get_summary</span>
+<span class="n">text</span><span class="o">=</span><span class="n">ocr_from_img</span><span class="p">(</span><span class="s2">&quot;image path&quot;</span><span class="p">)</span>
+<span class="n">eng_sum</span><span class="p">,</span> <span class="n">kor_sum</span> <span class="o">=</span> <span class="n">get_summary</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">eng_sum</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">kor_sum</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="hosting-with-external-url">
+<h2>Hosting with External URL<a class="headerlink" href="#hosting-with-external-url" title="Permalink to this headline"></a></h2>
+<p>After downloaded <strong>Ngrock.exe</strong> from the above site, Please proceed in the following order.&lt;br/&gt;</p>
+<ol class="arabic simple">
+<li><p>Please put in your autotoken that you received.</p></li>
+</ol>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">ngrok</span> <span class="n">authtoken</span> <span class="s2">&quot;your authtoken&quot;</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Please run ngrock using your port.</p></li>
+</ol>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">ngrok</span><span class="o">.</span><span class="n">exe</span> <span class="n">http</span> <span class="s2">&quot;your port&quot;</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>You can access it by entering “http &amp;#65279;://XXXXXXXXXXXXX.ngrok.io” in Forwarding from the outside.</p></li>
+</ol>
+<img alt="https://user-images.githubusercontent.com/63241893/142756074-a5c46913-e931-4577-8946-8a9a56a3502d.jpg" src="https://user-images.githubusercontent.com/63241893/142756074-a5c46913-e931-4577-8946-8a9a56a3502d.jpg" />
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../Installation/installguide.html" class="btn btn-neutral float-left" title="Installation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../Contribution/Contributing.html" class="btn btn-neutral float-right" title="Contributing Guidelines" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Geonyeong Son, Joonwon Jang, Juheon Oh, Yiyoung Yoon.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
