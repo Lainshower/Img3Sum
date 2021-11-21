@@ -7,14 +7,7 @@ Welcome to `Img3Sum <https://github.com/Lainshower/Img3Sum>`_!
 Before sending your pull requests, make sure that you **read the whole guidelines**. 
 If you have any doubt on the contributing guide, please feel free to `state it clearly in an issue <https://github.com/Lainshower/Img3Sum/issues/new>`_ .
 
-
-
-
-
 * `Code of Conduct <https://github.com/Lainshower/Img3Sum/blob/main/CODE_OF_CONDUCT.md>`_
-.. toctree::
-    Contributing
-
 
 
 How Can I Contribute?

@@ -10,6 +10,8 @@ Img3Sum is an open-source project thatOpen-source project that supports translat
 
 Introduction
 ============
+------------
+
 The purpose of this tool is to organize text images into three lines for those who are not fluent with
 English and who don't want to read the entire English document
 
@@ -36,13 +38,27 @@ Demos
    :height: 450
    :align: center
 
+Contents
+============
+------------
+
 .. toctree::
    :maxdepth: 2
-   :caption: CONTENTS:
    
-   QuickStart
-   FirstSteps/Feature
+   Installation/installation
+   HowToUse/howtouse
    Contribution/Contributing
-   Installation
    LICENSE
-   
+
+Authors
+============
+------------
+
+- Joonwon Jang
+  - Github: [Lainshower](https://github.com/Lainshower)
+- GeonYeong Son
+  - Github : [GeonYeongSon](https://github.com/GeonYeongSon?tab=repositories)
+- YiYoung Yoon
+  - Github : [y20ng](https://github.com/y20ng?tab=repositories)
+- JuHeon Oh
+  - Github : [OZOOOOOH](https://github.com/OZOOOOOH)
