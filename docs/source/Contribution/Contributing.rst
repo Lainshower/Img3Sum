@@ -12,6 +12,8 @@ If you have any doubt on the contributing guide, please feel free to `state it c
 
 How Can I Contribute?
 ######################
+----------------------
+
 
 Reporting Bugs
 **************

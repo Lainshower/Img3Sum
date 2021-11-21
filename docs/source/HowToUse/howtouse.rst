@@ -6,6 +6,8 @@ How to use?
 
 Running on Localhost
 ####################
+--------------------
+
 Run the program on localhost in the following order.
 
 Clone
@@ -25,13 +27,15 @@ Run
 
       $ conda activate env
 
-3.  Run [app.py](https://github.com/Lainshower/Img3Sum/blob/main/app.py) ::
+3.  Run `app.py <https://github.com/Lainshower/Img3Sum/blob/main/app.py>`_ ::
 
       $ python app.py
 
 
 Running each feature with python
 ################################
+--------------------------------
+
 
 In this guide, we'll show you how to use Img3Sum.
 
@@ -66,3 +70,4 @@ In this guide, we'll show you how to use Img3Sum.
 
 Hosting with External URL
 #########################
+-------------------------
