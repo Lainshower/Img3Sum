@@ -173,7 +173,7 @@ Ngrok를 사용하려면 회원가입이 필요합니다. <br/>
 ## 데모
 
 <p align="center">
-        <img alt="License" src="https://postfiles.pstatic.net/MjAyMTExMDhfODkg/MDAxNjM2MzQyODAyMDM0.6WSr4WG-dQ5dEjKT4jz6P7lAbrHd6oEuB0uP7iMUwz4g.WEN1m-qjhFA_Q5NX85auseKWbhOtgELLW-Ct9ySS6Fog.JPEG.kaoara/Img3SumDemo3.jpeg?type=w773">
+        <img alt="License" src="https://img3sum.readthedocs.io/en/latest/_images/Img3SumDemo.jpeg">
 </p>     
 
 
