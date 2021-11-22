@@ -123,26 +123,52 @@ sudo apt-get install libtesseract-dev
 
 > Run
 
-1. Conda 가상환경 만들기
-```python3
-  $ conda create --name 'your env name'
-```
-
-2. 패키징된 가상환경 설치 
+1. 패키징된 Conda 가상환경 설치
 ```bash
-  $ conda env create --file img3sum.yaml
+  $ conda env create --file requirements.yaml
 ```
 
-3. Conda 가상환경 활성화
+2. Conda 가상환경 활성화
 ```bash
-  $ conda activate 'your env name'
+  $ conda activate env
 ```
 
-4. [app.py](https://github.com/Lainshower/Img3Sum/blob/main/app.py) 실행
+3. app.py 실행
 ```bash
   $ python app.py
 ```
 
+###  외부 URL로 hosting
+
+>Ngrok
+
+외부 호스팅을 하려면 다음의 사이트를 참고해주세요. [Ngrock site]("https://ngrok.com/download"). <br/>
+Ngrok를 사용하려면 회원가입이 필요합니다. <br/>
+
+<p align="center">
+    <img alt="Ngrok" src="https://user-images.githubusercontent.com/63241893/142754896-df728f66-60ac-4022-9b87-60618cabff4c.jpg" width="50%">
+</p>
+
+
+>Run
+
+**Ngrock.exe**을 다운받은 후에는 아래의 절차를 따라 외부 hosting을 진행해주세요.<br/>
+
+1. 제공받은 autotoken을 입력해주세요.
+```python
+  ngrok authtoken "your authtoken"
+```
+
+2. 개인 포트번호와 함께 아래의 명령어를 실행해주세요.
+```bash
+  ngrok.exe http "your port"
+```
+
+3. "http &#65279;://XXXXXXXXXXXXX.ngrok.io"을 통해서 hosting된 url로 접근하면 됩니다.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/63241893/142756074-a5c46913-e931-4577-8946-8a9a56a3502d.jpg" width="50%">
+</P>
 
 ## 데모
 
