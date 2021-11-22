@@ -142,7 +142,7 @@ sudo apt-get install libtesseract-dev
 
 >Ngrok
 
-외부 호스팅을 하려면 다음의 사이트를 참고해주세요. [Ngrock site]("https://ngrok.com/download"). <br/>
+외부 호스팅을 하려면 다음의 사이트를 참고해주세요. [Ngrock]("https://ngrok.com/download"). <br/>
 Ngrok를 사용하려면 회원가입이 필요합니다. <br/>
 
 <p align="center">
