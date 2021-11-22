@@ -12,7 +12,7 @@ Welcome to Img3Sum's documentation!
 .. |License| image:: https://img.shields.io/crates/l/rustc-serialize?style=for-the-badge
 .. |Flask| image:: https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white
 
-Img3Sum is an open-source project thatOpen-source project that supports translating, summarizing and converting images to text.
+Img3Sum is an Open-source project that supports translating, summarizing and converting images to text.
 
 .. image:: images/Img3Sum_icon.png
    :width: 300
@@ -62,15 +62,14 @@ Release
 
 v 0.0.1
 
-
 Authors
 ============
 
 - Joonwon Jang
-  - Github: `[Lainshower] <https://github.com/Lainshower>`_
+  - Github: `Lainshower <https://github.com/Lainshower>`_
 - GeonYeong Son
-  - Github : `[GeonYeongSon] <https://github.com/GeonYeongSon?tab=repositories>`_
+  - Github : `GeonYeongSon <https://github.com/GeonYeongSon?tab=repositories>`_
 - YiYoung Yoon
-  - Github : `[y20ng] <https://github.com/y20ng?tab=repositories>`_
+  - Github : `y20ng <https://github.com/y20ng?tab=repositories>`_
 - JuHeon Oh
-  - Github : `[OZOOOOOH] <https://github.com/OZOOOOOH>`_
+  - Github : `OZOOOOOH <https://github.com/OZOOOOOH>`_

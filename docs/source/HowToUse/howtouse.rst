@@ -68,7 +68,7 @@ In this guide, we'll show you how to use Img3Sum.
 Hosting with External URL
 #########################
 
-After downloaded **Ngrock.exe** from the above site, Please proceed in the following order.<br/>
+After downloaded **Ngrock.exe** from the above site, Please proceed in the following order.
 
 1. Please put in your autotoken that you received.
 
