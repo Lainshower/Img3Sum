@@ -176,7 +176,7 @@ After downloaded **Ngrock.exe** from the above site, Please proceed in the follo
 ## Demos
 
 <p align="center">
-        <img alt="License" src="https://postfiles.pstatic.net/MjAyMTExMDhfODkg/MDAxNjM2MzQyODAyMDM0.6WSr4WG-dQ5dEjKT4jz6P7lAbrHd6oEuB0uP7iMUwz4g.WEN1m-qjhFA_Q5NX85auseKWbhOtgELLW-Ct9ySS6Fog.JPEG.kaoara/Img3SumDemo3.jpeg?type=w773">
+        <img alt="License" src="https://img3sum.readthedocs.io/en/latest/_images/Img3SumDemo.jpeg">
 </p>     
 
 ## Release
