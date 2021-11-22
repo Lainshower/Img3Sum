@@ -29,7 +29,7 @@
 
 ## 공식 문서
 
-(수정중) [Img3Sum 공식문서](https://img3sum.readthedocs.io/)
+(수정중) [Img3Sum 공식문서](https://img3sum.readthedocs.io/en/main/)
 
 ## 제공하는 기능
 
