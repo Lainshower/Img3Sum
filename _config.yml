@@ -21,6 +21,7 @@ header_pages:
   - _pages/frontpage.md
   - _pages/about.md
   - _pages/features.md
+  - _pages/contact-us.md 
 
 include:
     - _pages
