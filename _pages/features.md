@@ -1,6 +1,6 @@
 ---
 permalink: /features
-layout: features
+layout: page
 title: Features
 ---
 
