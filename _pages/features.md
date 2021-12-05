@@ -1,6 +1,6 @@
 ---
-permalink: /archive
-layout: page
+permalink: /features
+layout: features
 title: Blog archive
 ---
 

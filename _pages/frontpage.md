@@ -1,7 +1,7 @@
 ---
 permalink: /
 layout: home
-title: Welcome
+title: Welcome to Img3Sum
 list_title: My blog posts
 ---
 
