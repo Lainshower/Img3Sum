@@ -1,6 +1,6 @@
 ---
 permalink: /
-layout: home_custom
+layout: home
 title: Welcome to Img3Sum
 list_title: My blog posts
 ---
