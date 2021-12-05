@@ -28,7 +28,7 @@
 
 ## 공식 홈페이지
 
-Img3Sum 공식 홈페이지](https://lainshower.github.io/Img3Sum/)
+[Img3Sum 공식 홈페이지](https://lainshower.github.io/Img3Sum/)
 
 ## 공식 문서
 
