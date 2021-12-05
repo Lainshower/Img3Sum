@@ -26,9 +26,13 @@
 
 저희는 문서 이미지 속 핵심 문장과 번역본을 제공해주는 오픈소스 프로젝트입니다.
 
+## 공식 홈페이지
+
+Img3Sum 공식 홈페이지](https://lainshower.github.io/Img3Sum/)
+
 ## 공식 문서
 
-(수정중) [Img3Sum 공식문서](https://img3sum.readthedocs.io/en/main/)
+[Img3Sum 공식문서](https://img3sum.readthedocs.io/en/main/)
 
 ## 제공하는 기능
 
