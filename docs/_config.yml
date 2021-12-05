@@ -30,6 +30,19 @@ theme: minima
 plugins:
   - jekyll-feed
 
+header_pages:
+  - _pages/frontpage.md
+  - _pages/about.md
+  - _pages/archive.md
+
+header_pages:
+  - _pages/about.md
+  - _pages/feature.md
+  - _pages/contact-us.md
+
+include:
+    - _pages
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
