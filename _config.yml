@@ -1,12 +1,35 @@
-
 title: Img3Sum
 email: kaoara@naver.com
 description: >- # this means to ignore newlines until "baseurl:"
   Open-source project that supports translating, summarizing and converting images to text.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  Lainshower
-# Build settings
+
 theme: minima
-plugins:
-  - jekyll-feed
+
+base_url: /gh-pages-img3sum
+
+# Minima social links
+github_username:  Lainshower
+rss: rss
+
+# Minima: show excerpts in the frontpage
+show_excerpts: true
+
+minima:
+  date_format: "%Y-%m-%d"
+
+# Minima: custom header links
+header_pages:
+  - _pages/frontpage.md
+  - _pages/about.md
+  - _pages/archive.md
+
+include:
+    - _pages
+
+exclude: 
+    - .gitignore
+    - docker-compose.yml
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
