@@ -5,7 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 theme: minima
 
-base_url: /gh-pages-img3sum
+base_url: /ga_blog_img3sum
 
 # Minima social links
 github_username:  Lainshower
