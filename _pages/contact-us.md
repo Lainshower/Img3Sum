@@ -13,7 +13,7 @@ title: Contact us
 </h4>
 
 <ul>
-	{% for member in data.members %}
+	{% for member in site.data.members %}
 	<li>
 			<span> {{ member.name }} </span>
 			<div>
